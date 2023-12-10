@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #fFF; 
+  }
+  
+  .jevelerystore {
+    font-family: 'Avenir Book', sans-serif; 
+  cursor: pointer;
+  font-size: 25px;
+  }
+  
+  .searchstore {
+    
+    display: flex;
+    gap: 10px;
+  }
+  .searchstore svg,.searchstore svg {
+    cursor: pointer;
+  fill: black; 
+  width: 40px; 
+  height: 40px; 
+}

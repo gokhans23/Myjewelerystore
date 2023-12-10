@@ -1,0 +1,56 @@
+
+.centered-text {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 15px 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+  }
+  
+.centered-text span {
+    margin-left: 10px; 
+    
+}
+.centered-text strong {
+    margin-right: 20px;
+}
+
+
+.centered-text:active {
+  background-color: black;
+  color: white;
+}
+.centered-text:focus{
+    background-color: black;
+    color: white;
+}
+.centered-text:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.AllProducts.clicked .centered-text {
+    background-color: black;
+    color: white;
+  }
+  
+  .AllProducts {
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+  
+body {
+    font-family: 'Avenir Book', sans-serif;
+  }
+  
+  .AllProducts .centered-text span {
+    font-family: 'Avenir Book', sans-serif;
+  }
+  
+  
